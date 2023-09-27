@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 15px;
+    border-radius: 3%;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+}
+
+#btn_div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 5px 5px;
+    width: 40%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(34, 145, 34);
+}
+
+#days, #answer{
+    font-size: 12px;
+}

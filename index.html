@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <label for="start_date">Total Date Range: </label>
+        <input type="date" id="start_date">
+        <input type="date" id="end_date"> <br>
+        <p id="days">0</p>
+        <label for="amount">Total Amount Due: $</label>
+        <input type="number" placeholder="0" id="amount"> <br>
+        <p id="answer">0</p> <br>
+        <label for="p1_date">Period 1 Date Range: </label>
+        <input type="date" id="p1_start_date">
+        <input type="date" id="p1_end_date"> <br>
+        <p id="p1_amount">$ 0</p>
+        <label for="p2_date">Period 2 Date Range: </label>
+        <input type="date" id="p2_start_date">
+        <input type="date" id="p2_end_date"> <br>
+        <p id="p2_amount">$ 0</p>
+        <label for="p3_date">Period 3 Date Range: </label>
+        <input type="date" id="p3_start_date">
+        <input type="date" id="p3_end_date"> <br>
+        <p id="p3_amount">$ 0</p>
+        <label for="p4_date">Period 4 Date Range: </label>
+        <input type="date" id="p4_start_date">
+        <input type="date" id="p4_end_date"> <br>
+        <p id="p4_amount">$ 0</p>
+        <div id="btn_div">
+            <button onclick="split()" type="button" id="split_btn">Split</button>
+        </div>
+    </form>
+</body>
+</html>
